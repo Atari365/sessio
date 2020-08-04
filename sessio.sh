@@ -13,17 +13,15 @@ rotate_factor=4 # times
 size=5 # KB
 time_between_checks=5 # sec
 
-# Logrotate will save divide everything 
-# into files larger than 5KB ($size). 
-# In doing so, it will save 4 ($rotate_factor)
-# such files. There will be 5 ($time_between_checks)
-# seconds between each check. You need to understand
-# that the final size of the files depends not only
+# Logrotate will save divide everything into files larger than 5KB ($size). 
+# In doing so, it will save 4 ($rotate_factor)such files. 
+# There will be 5 ($time_between_checks) seconds between each check.
+# You need to understand that the final size of the files depends not only
 # on $size, but also on $time_between_checks.
 #
-# When you want to finish recording, just type "exit"
-# at the console. Then you will see that you will only
-# have a backup folder with 4 ($rotate_factor) files in it.
+# When you want to finish recording, just type "exit" at the console.
+# Then you will see that you will only# have a backup folder 
+# with 4 ($rotate_factor) files in it.
 
 #==============================================================================
 
